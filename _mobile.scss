@@ -1,0 +1,55 @@
+@media (max-width: 376px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        height: 735px;
+        display: flex;
+        border-bottom: none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+    }
+
+    .text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .button {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .top {
+        height: 1221px;
+
+        &__item {
+            font-size: 24px;
+            line-height: 32px;
+
+        }
+
+    }
+
+
+
+
+
+}
